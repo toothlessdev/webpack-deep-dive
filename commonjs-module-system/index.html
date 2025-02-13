@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <script defer type="module" src="./math.js"></script>
+        <script defer type="module" src="./index.js"></script>
+
+        <!--
+            브라우저에서는 CommonJS 를 지원하지 않음
+            CommonJS 모듈 시스템은 기본적으로 브라우저가 아닌 NodeJS 환경에서 사용
+            브라우저에서 CommonJS 모듈 시스템을 사용하려면 번들러를 사용해야 함
+
+            CommonJS 는 비동기 스크립트 로드를 지원하지 않음.
+            비동기 스크립트 로드란 "./a.js", "./b.js" 를 로드했을 때 
+            1) 순서를 보장하지 않으며
+            2) 각 스크립트마다의 의존성이 있는 경우 문제가 발생할 수 있음
+
+            이러한 한계를 해결하기 위해 다양한 모듈 시스템이 나옴
+            1) AMD (Asynchronous Module Definition)
+            2) UMD (Universal Module Definition)
+            3) ES6 Module System (ESM = ES2015 = ES6)
+        -->
+    </head>
+    <body>
+        <input id="a" type="number" />
+        <p>+</p>
+        <input id="b" type="number" />
+
+        <p id="result">=</p>
+
+        <button id="btn">Calculate</button>
+    </body>
+</html>
