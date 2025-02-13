@@ -1,0 +1,6 @@
+{
+    "name": "webpack-basic",
+    "scripts": {
+        "build": "webpack"
+    }
+}
