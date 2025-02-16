@@ -1,0 +1,12 @@
+{
+    "name": "webpack-loaders",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "css-loader": "^7.1.2",
+        "file-loader": "^6.2.0",
+        "style-loader": "^4.0.0"
+    }
+}
