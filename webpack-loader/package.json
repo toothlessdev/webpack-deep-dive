@@ -2,7 +2,7 @@
     "name": "webpack-loaders",
     "version": "1.0.0",
     "scripts": {
-        "build": "webpack"
+        "build": "webpack --progress"
     },
     "devDependencies": {
         "css-loader": "^7.1.2",
