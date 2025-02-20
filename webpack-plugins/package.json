@@ -1,0 +1,11 @@
+{
+    "name": "webpack-plugins",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack --progress"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^5.6.3",
+        "webpack-dev-server": "^5.2.0"
+    }
+}
